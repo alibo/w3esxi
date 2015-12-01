@@ -1,0 +1,18 @@
+// *************************************************************************
+// *                                                                       *
+// * W3ESXi - A module for WHMCS 5 & 4 to manage VMs on Vmware ESXi/ESX    *
+// * Release Date: 27 Jul 2012                                             *
+// * Version 0.7.5                                                         *
+// *                                                                       *
+// *************************************************************************
+// *************************************************************************
+// *                                INSTALLATION                           *
+// *************************************************************************
+// *                                                                       *
+// * 1. Put `whmcs` folder in root of WHMCS on your server. 			   *
+// * 2. put contents of `_CSS/clientarea_add_css_to_your_template.txt` in  * 
+// *	style file of your template and put `images` folder in  folder  of * 
+// *	style file.														   *
+// * 3. now on whmcs admin panel,  go  to  setup  menu  and select `addon` *
+// *	module then active `w3esxi_admin`.								   *
+// *************************************************************************

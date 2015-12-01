@@ -1,0 +1,87 @@
+/* --------------------------------------------------------------
+   W3Esxi
+-------------------------------------------------------------- */
+
+a.dashboard-module, a.dashboard-module: visited {
+    text-decoration: none;
+    width: 110px;
+    height: 110px;
+    display: block;
+    float: left;
+    background: url('images/dashboard-module_off.gif') no-repeat;
+    margin: 7px 13px 7px 0;
+    text-align: center;
+    color: #444444;
+}
+a.dashboard-module: hover, a.dashboard-module: active {
+    background: url('images/dashboard-module_on.gif') no-repeat;
+    text-decoration: none;
+    color: #0063be;
+}
+a.dashboard-module img {
+    margin-top: 10px;
+}
+a.dashboard-module span {
+    margin-top: 10px;
+    display: block;
+}
+.indicator {
+    width: 220px;
+    height: 12px;
+    background: url(images/indicator-bg.gif) no-repeat top left;
+}
+.indicator div {
+    height: 12px;
+    background: url(images/indicator-green-to-red.gif) no-repeat top left;
+}
+.indicator div.reverse {
+    background: url(images/indicator-red-to-green.gif) no-repeat top left;
+}
+div.module {
+    background: url(images/module-body-left-bg.gif) no-repeat scroll bottom left;
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+div.module div.module-body {
+    background: url(images/module-body-right-bg.gif) no-repeat scroll bottom right;
+    padding: 20px 3% 20px 3%;
+    float: left;
+    width: 94%;
+}
+/* Percentage padding in the module dependant on the cell width */
+
+.grid_5 div.module div.module-body {
+    padding: 20px 4% 20px 4%;
+    float: left;
+    width: 92%;
+}
+div.module div.module-table-body {
+    /*background: url(images/module-body-right-bg.gif) no-repeat scroll bottom right; */
+
+padding: 0;
+    float: left;
+    width: 100%;
+}
+div.module h3 {
+    background-color: #888;
+    display: block;
+    float: left;
+    height: 32px;
+    margin-right: 0px;
+    padding-right: 0px;
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 0;
+    letter-spacing: normal;
+    text-align: left;
+}
+div.module h3 span {
+    display: block;
+    line-height: 20px;
+    padding: 7px 18px 5px 18px;
+}
